@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Code Language</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .manual{
+      margin-left: 20px;
+    }
+    body {
+      background: black;
+      color: rgb(70, 255, 70);
+      font-family: Georgia, "Times New Roman", Times, serif;
+    }
+    .codeLang {
+      height: 50%;
+      width: 100%;
+      border: 1px solid rgb(47, 47, 47);
+    }
+    .decodeLang2 {
+      height: 50%;
+      width: 100%;
+      border: 1px solid rgb(47, 47, 47);
+    }
+    #decoInp,
+    #decoInp2 {
+      background: black;
+      color: white;
+      border: 1px solid white;
+    }
+    button {
+      width: 100px;
+      height: 30px;
+      font-size: 18px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    input {
+      height: 30px;
+    }
+    a {
+      color: white;
+      font-size: 20px;
+      padding: 10px;
+    }
+  </style>
+
+  <body>
+    <div class="codeLang">
+      <h2 style="color: white">Code Language</h2>
+      <br />
+      <p id="disCode"></p>
+    </div>
+    <br />
+
+    <div class="decodeLang2">
+      <h2 style="color: white">Decoder Language ( Number --> Alphabets )</h2>
+      <h6>Dont Copy Paste the numbers and strings</h6>
+      <br />
+      <input type="text" id="decoInp2" />&emsp;
+      <button onclick="click()" id="click">Submit</button>
+    </div>
+    <br />
+
+    <a href="index.html">Decoder Language ( Alphabets --> Number)</a>
+
+<br><br>
+    <div class="manual" >
+      <h2 style="color: white">Here's how to use</h2>
+      <ol>
+        <li>Do not copy paste the values in input box it will not give you result</li>
+        <li>You are only allow to write single digits together & for two digit no. you need to write them separately</li>
+        <li>if you write '2' in input box it will give you 'b' but for two digit no. if you write '10' you need to submit it</li>
+        <li>You have only 5 seconds to write the coded language in input box</li>
+      </ol>
+    </div>
+    <script src="script2.js"></script>
+  </body>
+</html>

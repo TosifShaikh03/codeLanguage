@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Code Language</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: black;
+      color: rgb(70, 255, 70);
+      font-family: Georgia, "Times New Roman", Times, serif;
+    }
+    .codeLang {
+      height: 50%;
+      width: 100%;
+      border: 1px solid rgb(47, 47, 47);
+    }
+    .decodeLang1 {
+      height: 50%;
+      width: 100%;
+      border: 1px solid rgb(47, 47, 47);
+    }
+    #decoInp,
+    #decoInp2 {
+      background: black;
+      color: white;
+      border: 1px solid white;
+    }
+    button {
+      width: 100px;
+      height: 30px;
+      font-size: 18px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    input {
+      height: 30px;
+    }
+    a {
+      color: white;
+      font-size: 20px;
+      padding: 10px;
+    }
+  </style>
+
+  <body>
+    <div class="codeLang">
+      <h2 style="color: white">Code Language</h2>
+      <br />
+      <p id="disCode"></p>
+    </div>
+    <br />
+
+    <div class="decodeLang1">
+      <h2 style="color: white">Decoder Language ( Alphabets --> Number)</h2>
+      <h6>Dont Copy Paste the numbers and strings</h6>
+      <br />
+      <input type="text" id="decoInp" />
+    </div>
+    <br />
+
+    <a href="index2.html">Decoder Language ( Number --> Alphabets )</a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
